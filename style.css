@@ -1,0 +1,69 @@
+body{
+padding: 0;
+margin: 0;
+font-family: 'Oswald',Arial, sans-serif;
+background: radial-gradient(rgb(229, 46, 253), rgb(60, 218, 218));
+}
+li{
+list-style-type: none;
+}
+.header {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 150px;
+background-color: rgb(4, 0, 255);
+}
+.zagolovok a{
+font-size: 30px;
+margin-left: 40px;
+color: #ffffff;
+text-decoration: none;
+}
+.zagolovok a:hover{
+color: slategrey;
+}
+.number {
+font-size: 40px;
+
+}
+img{
+width: 750px;
+}
+.counteaner{
+width: 1280px;
+margin: 0 auto;
+}
+.top5 a {
+font-size: 36px;
+text-decoration: none;
+color:black;
+}
+.top5 a:hover{
+color: grey;
+}
+
+.container {
+display: flex;
+}
+#weapon {
+position: relative;
+transition: all 1s ease;
+}
+#weapon:active {
+transform: rotate(-30deg);
+
+}
+.Youtube{
+width: 100px;
+animation: Fort 4s infinite;
+}
+
+@keyframes Fort {
+50%{
+ transform: translate(200px,0);
+}
+100%{
+transform: translate(0,0);
+}
+}
